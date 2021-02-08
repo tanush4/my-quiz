@@ -44,6 +44,7 @@ class Quiz {
   }
   play() 
   {
+    if(gameState==1){
     question.hide()
    background("lightgreen")
    fill("green")
@@ -72,7 +73,7 @@ class Quiz {
     }
   }
 }
-    
+}
     
 
 
